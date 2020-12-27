@@ -9,8 +9,16 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            List {
+                Section(header: Text("Lists")) {
+                    NavigationLink(destination: BasicListScreen()) {
+                        Text("Basic List")
+                    }
+                }
+            }.listStyle(GroupedListStyle())
+            .navigationBarTitle(Text("Examples"))
+        }
     }
 }
 
