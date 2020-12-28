@@ -12,8 +12,8 @@ struct ContentView: View {
         NavigationView {
             List {
                 Section(header: Text("Lists")) {
-                    NavigationLink(destination: BasicListScreen()) {
-                        Text("Basic List")
+                    NavigationLink(destination: EditableListScreen()) {
+                        Text("Editable list")
                     }
                 }
             }.listStyle(GroupedListStyle())
