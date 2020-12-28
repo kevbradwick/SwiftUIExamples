@@ -13,6 +13,9 @@
 		0C15AF6C2596745C009D4456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15AF6B2596745C009D4456 /* Preview Assets.xcassets */; };
 		0C60082B25993A23001A6A65 /* EditableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C60082A25993A23001A6A65 /* EditableListScreen.swift */; };
 		0C600831259A1811001A6A65 /* ProgressCircleAnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */; };
+		0C600835259A3FFE001A6A65 /* ImplicitAnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C600834259A3FFE001A6A65 /* ImplicitAnimationScreen.swift */; };
+		0C600838259A43E7001A6A65 /* ExplicitAnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C600837259A43E7001A6A65 /* ExplicitAnimationScreen.swift */; };
+		0C60083B259A6FCE001A6A65 /* TransitionScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C60083A259A6FCE001A6A65 /* TransitionScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +28,9 @@
 		0C15AF74259674E3009D4456 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0C60082A25993A23001A6A65 /* EditableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListScreen.swift; sourceTree = "<group>"; };
 		0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleAnimationScreen.swift; sourceTree = "<group>"; };
+		0C600834259A3FFE001A6A65 /* ImplicitAnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImplicitAnimationScreen.swift; sourceTree = "<group>"; };
+		0C600837259A43E7001A6A65 /* ExplicitAnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExplicitAnimationScreen.swift; sourceTree = "<group>"; };
+		0C60083A259A6FCE001A6A65 /* TransitionScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransitionScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 			isa = PBXGroup;
 			children = (
 				0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */,
+				0C600834259A3FFE001A6A65 /* ImplicitAnimationScreen.swift */,
+				0C600837259A43E7001A6A65 /* ExplicitAnimationScreen.swift */,
+				0C60083A259A6FCE001A6A65 /* TransitionScreen.swift */,
 			);
 			path = Animations;
 			sourceTree = "<group>";
@@ -170,9 +179,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0C60083B259A6FCE001A6A65 /* TransitionScreen.swift in Sources */,
 				0C60082B25993A23001A6A65 /* EditableListScreen.swift in Sources */,
 				0C600831259A1811001A6A65 /* ProgressCircleAnimationScreen.swift in Sources */,
 				0C15AF672596745B009D4456 /* ContentView.swift in Sources */,
+				0C600835259A3FFE001A6A65 /* ImplicitAnimationScreen.swift in Sources */,
+				0C600838259A43E7001A6A65 /* ExplicitAnimationScreen.swift in Sources */,
 				0C15AF652596745B009D4456 /* SwiftUIExamplesApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

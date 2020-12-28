@@ -17,8 +17,17 @@ struct ContentView: View {
                     }
                 }
                 Section(header: Text("Animations")) {
+                    NavigationLink(destination: ImplicitAnimationScreen()) {
+                        Text("Implicit animations")
+                    }
+                    NavigationLink(destination: ExplicitAnimationScreen()) {
+                        Text("Explicit animations")
+                    }
                     NavigationLink(destination: ProgressCircleAnimationScreen()) {
-                        Text("Progress Circle")
+                        Text("Progress circle")
+                    }
+                    NavigationLink(destination: TransitionScreen()) {
+                        Text("Transitions")
                     }
                 }
             }.listStyle(GroupedListStyle())
