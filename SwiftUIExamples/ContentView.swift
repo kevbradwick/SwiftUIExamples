@@ -16,6 +16,11 @@ struct ContentView: View {
                         Text("Editable list")
                     }
                 }
+                Section(header: Text("Animations")) {
+                    NavigationLink(destination: ProgressCircleAnimationScreen()) {
+                        Text("Progress Circle")
+                    }
+                }
             }.listStyle(GroupedListStyle())
             .navigationBarTitle(Text("Examples"))
         }

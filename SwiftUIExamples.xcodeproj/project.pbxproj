@@ -12,6 +12,7 @@
 		0C15AF692596745C009D4456 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15AF682596745C009D4456 /* Assets.xcassets */; };
 		0C15AF6C2596745C009D4456 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C15AF6B2596745C009D4456 /* Preview Assets.xcassets */; };
 		0C60082B25993A23001A6A65 /* EditableListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C60082A25993A23001A6A65 /* EditableListScreen.swift */; };
+		0C600831259A1811001A6A65 /* ProgressCircleAnimationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		0C15AF6D2596745C009D4456 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C15AF74259674E3009D4456 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0C60082A25993A23001A6A65 /* EditableListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListScreen.swift; sourceTree = "<group>"; };
+		0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleAnimationScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		0C15AF7525967598009D4456 /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				0C60082F259A17C3001A6A65 /* Animations */,
 				0C60082925993A10001A6A65 /* Lists */,
 			);
 			path = Screens;
@@ -88,6 +91,14 @@
 				0C60082A25993A23001A6A65 /* EditableListScreen.swift */,
 			);
 			path = Lists;
+			sourceTree = "<group>";
+		};
+		0C60082F259A17C3001A6A65 /* Animations */ = {
+			isa = PBXGroup;
+			children = (
+				0C600830259A1811001A6A65 /* ProgressCircleAnimationScreen.swift */,
+			);
+			path = Animations;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C60082B25993A23001A6A65 /* EditableListScreen.swift in Sources */,
+				0C600831259A1811001A6A65 /* ProgressCircleAnimationScreen.swift in Sources */,
 				0C15AF672596745B009D4456 /* ContentView.swift in Sources */,
 				0C15AF652596745B009D4456 /* SwiftUIExamplesApp.swift in Sources */,
 			);
